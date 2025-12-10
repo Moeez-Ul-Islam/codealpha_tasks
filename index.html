@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Image Gallery</h1>
+    <div class="filter-buttons">
+      <button class="btn active" data-category="all">All</button>
+      <button class="btn" data-category="nature">Nature</button>
+      <button class="btn" data-category="animals">Animals</button>
+      <button class="btn" data-category="architecture">Architecture</button>
+    </div>
+  </header>
+
+  <section class="gallery">
+    <div class="image-card" data-category="nature">
+      <img src="https://source.unsplash.com/400x300/?forest" alt="Nature">
+    </div>
+    <div class="image-card" data-category="animals">
+      <img src="https://source.unsplash.com/400x300/?lion" alt="Animal">
+    </div>
+    <div class="image-card" data-category="architecture">
+      <img src="https://source.unsplash.com/400x300/?building" alt="Architecture">
+    </div>
+    <div class="image-card" data-category="nature">
+      <img src="https://source.unsplash.com/400x300/?mountain" alt="Nature">
+    </div>
+    <div class="image-card" data-category="animals">
+      <img src="https://source.unsplash.com/400x300/?bird" alt="Animal">
+    </div>
+    <div class="image-card" data-category="architecture">
+      <img src="https://source.unsplash.com/400x300/?bridge" alt="Architecture">
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
